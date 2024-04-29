@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		631965792BDF5EF200C6938A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 631965782BDF5EF200C6938A /* main.cpp */; };
+		631965792BDF5EF200C6938A /* bestFlightFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 631965782BDF5EF200C6938A /* bestFlightFinder.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		631965752BDF5EF200C6938A /* Best Flights Finder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Best Flights Finder"; sourceTree = BUILT_PRODUCTS_DIR; };
-		631965782BDF5EF200C6938A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		631965782BDF5EF200C6938A /* bestFlightFinder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bestFlightFinder.cpp; sourceTree = "<group>"; };
+		6319657F2BDF619300C6938A /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,8 @@
 		631965772BDF5EF200C6938A /* Best Flights Finder */ = {
 			isa = PBXGroup;
 			children = (
-				631965782BDF5EF200C6938A /* main.cpp */,
+				631965782BDF5EF200C6938A /* bestFlightFinder.cpp */,
+				6319657F2BDF619300C6938A /* Graph.h */,
 			);
 			path = "Best Flights Finder";
 			sourceTree = "<group>";
@@ -119,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				631965792BDF5EF200C6938A /* main.cpp in Sources */,
+				631965792BDF5EF200C6938A /* bestFlightFinder.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
