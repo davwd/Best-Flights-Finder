@@ -1,33 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Best Flight Finder</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      margin: 2rem;
-    }
-    h1 {
-      text-align: center;
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-    }
-    pre {
-      background-color: #f5f5f5;
-      padding: 1rem;
-      border-radius: 5px;
-    }
-  </style>
+
 </head>
 <body>
-  <h1>Best Flight Finder</h1>
-  <p>This C++ program utilizes Dijkstra's algorithm with a priority queue to efficiently discover the shortest route within a directed graph, ideal for finding the most time-saving or cost-effective flight path between cities.</p>
-  <pre>
-    // C++ program for Dijkstra's shortest path algorithm
+  <h1>Best Flight Finder</h1> 
+  <br>
+  <p>This C++ program utilizes Dijkstra's algorithm with a priority queue to efficiently search for the shortest path between two vertices within a directed graph. The algorithm was implemented in a graph in which the vertices are airports and the directed and weighted edges are flights between them. The edge weight in this case is a combination of the departure and arrival time for each flight: Earliest arrival == least weight. </p> 
+  <br>
 
-    // ... (your code goes here)
-  </pre>
+  <p> Warning:  This algorithm will not work for graphs with <b>loops</b>, <b>negative edges</b>, or <b>islanded vertices</b>.</p>
+  <br>
+  <p> Notes:  The code can be easily tweaked to change the data input format (like through cin user input). </p>
+  
 </body>
 </html>
