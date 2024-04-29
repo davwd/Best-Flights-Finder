@@ -65,7 +65,7 @@ struct CompareVertices {
 class Graph {
 private:
 	priority_queue<Vertex*, vector<Vertex*>, CompareVertices> heap;
-	map<string, Vertex*> vmap;
+	unordered_map<string, Vertex*> vmap;
 	vector<Edge*> elist;
 	
 	///A recursive function to traverse from final destination to source and then print edge info during unfolding.
